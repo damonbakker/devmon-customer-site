@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="702px" height="293px" viewBox="0 0 702 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>devmon-hero</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="249.5" y1="167.5" x2="446.5" y2="167.5" id="Line-4" stroke="#00A8BB" stroke-linecap="square"></line>
+        <line x1="41" y1="168" x2="238" y2="168" id="Line-4" stroke="#00A8BB" stroke-linecap="square"></line>
+        <line x1="458" y1="167" x2="655" y2="167" id="Line-4" stroke="#00A8BB" stroke-linecap="square"></line>
+        <text id="Imagine" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#00A8BB">
+            <tspan x="96" y="161">Imagine</tspan>
+        </text>
+        <text id="Develop" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#00A8BB">
+            <tspan x="303" y="161">Develop</tspan>
+        </text>
+        <text id="Maintain" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#00A8BB">
+            <tspan x="511" y="161">Maintain</tspan>
+        </text>
+    </g>
+</svg>

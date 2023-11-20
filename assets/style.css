@@ -1,0 +1,7 @@
+
+html,body, #__nuxt, #__layout{
+    height:100%!important;
+    width: 100%!important;
+    background: #0f172a;
+    color: rgba(229, 231, 235, 0.89)
+}
