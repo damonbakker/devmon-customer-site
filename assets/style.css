@@ -5,3 +5,11 @@ html,body, #__nuxt, #__layout{
     background: #0f172a;
     color: rgba(229, 231, 235, 0.89)
 }
+@font-face {
+    font-family: geomanist;
+    src: url(Geomanist-Regular.otf);
+}
+
+.font-geomanist {
+    font-family: geomanist, sans-serif;
+}
