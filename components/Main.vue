@@ -2,7 +2,7 @@
   <div class="w-full default-container">
     <Nav></Nav>
     <div class="part-0 container m-auto text-center devmon-hero relative">
-      <div class="absolute text-center text-whit transform -translate-x-1/2 -translate-y-1/2"
+      <div class="absolute text-center  transform -translate-x-1/2 -translate-y-1/2"
            style="left:50%;top: 40%;max-width: 100%;width: 900px">
         <div class="text-white mb-6">
           <span class="text-7xl">DEVMON</span><br>
@@ -17,9 +17,14 @@
           </div>
         </div>
       </div>
+      <div class="absolute -translate-x-1/2 left-1/2 top-3/4">
+        <ChevronDownIcon class="h-12 text-highlights"></ChevronDownIcon>
+      </div>
     </div>
-    <Services class="w-full part-1">
-    </Services>
+    <client-only>
+      <Services class="w-full part-1">
+      </Services>
+    </client-only>
     <div class="mt-12 mb-12" style="height: 250px"></div>
     <div class="w-full part-2">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid lg:grid-cols-2 lg:items-center">
@@ -68,6 +73,7 @@ import AnimatedSVGtitles from "~/components/Home/HeroBackground.vue";
 import VanillaTilt from 'vanilla-tilt'
 import {onMounted, ref} from 'vue'
 import PrototypeSVG from "~/components/PrototypeSVG.vue";
+import {ChevronDownIcon} from "@heroicons/vue/24/outline";
 
 const element = ref(null)
 onMounted(() => {
