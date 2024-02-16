@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container m-auto pl-1 pr-1">
+    <div class="container m-auto pl-1 pr-1" id="services-container">
       <div class="w-full title text-4xl ml-4 ">Devmon <span class="highlight-text">services</span></div>
       <div class="badge-container m-4">
         <div
@@ -29,14 +29,64 @@
               code to be ready for the next version of android
             </div>
           </div>
-          <div class="gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50">Android
-            apps
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Enterprise web app/api</div>
+            <div></div>
           </div>
-          <div class="gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50">Android
-            apps
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Cloud infrastructure</div>
+            <div></div>
           </div>
-          <div class="gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50">
-            Prototyping
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Consulting</div>
+            <div></div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Implementing AI</div>
+            <div></div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Implementing AI | Machine learning</div>
+            <div>Supervised/unsupervised learning for creating custom modals or implementing existing AI technologies
+              into your software stack
+            </div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Modernizing legacy software/systems</div>
+            <div></div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Cross platforms mobile apps</div>
+            <div></div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Full stack development for hire</div>
+            <div></div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Dynamics 365 solutions</div>
+            <div>Powerapps, custom solutions to problems to make your time on this platform more efficient. Where the
+              default systems are lacking, we can make a solution that solves your problem
+            </div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl">Cross platform PC apps</div>
+            <div></div>
+          </div>
+          <div ref="element"
+               class="partial-border-pseudo gap-x-8 gap-y-4 rounded-xl flex flex-col flex-1 px-4 py-5 sm:p-6 dark:bg-gray-900/50 partial-border">
+            <div class="text-xl"></div>
+            <div></div>
           </div>
         </div>
       </div>
@@ -68,10 +118,6 @@ onMounted(() => {
   min-height: 500px;
 }
 
-.part-1 {
-  //background: rgba(54, 185, 190, 0.51);
-  height: 500px;
-}
 
 .highlight-text {
   color: #00A8BB;

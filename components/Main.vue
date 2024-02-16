@@ -5,8 +5,9 @@
       <div class="absolute text-center  transform -translate-x-1/2 -translate-y-1/2"
            style="left:50%;top: 40%;max-width: 100%;width: 900px">
         <div class="text-white mb-6">
+          <!--          TODO:: CHOOSE FONT, use devmon mirrored color-->
           <span class="text-7xl">DEVMON</span><br>
-          <span class="text-xl">Software engineering focused on delivering your idea in an efficient and maintainable solution</span>
+          <span class="text-xl">Your personal freelancer, focused on delivering your idea in an efficient and maintainable solution</span>
         </div>
         <AnimatedSVGtitles></AnimatedSVGtitles>
         <TypedLocation></TypedLocation>
@@ -21,21 +22,24 @@
         <ChevronDownIcon class="h-12 text-highlights"></ChevronDownIcon>
       </div>
     </div>
-    <client-only>
-      <Services class="w-full part-1">
-      </Services>
-    </client-only>
+    <Services class="w-full part-1">
+    </Services>
     <div class="mt-12 mb-12" style="height: 250px"></div>
     <div class="w-full part-2">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid lg:grid-cols-2 lg:items-center">
+      <div
+          class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid lg:grid-cols-2 lg:items-center">
         <div>
           <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl"><span class="highlight-text">Developed</span> for
             you<br></h2>
-          <p class="mt-6 text-lg ">All software devmon writes is <span class="highlight-text"> 100% owned by you</span>, we do not have any legal say over it.</p>
+          <p class="mt-6 text-lg ">All software devmon writes is <span class="highlight-text"> 100% owned by you</span>.
+          </p>
           <p class="mt-6 text-lg ">Our goal is to deliver software that can help you grow your business, as well as
             keeping you happy throughout our collaboration.<br>
-            We make all our software self contained, meaning that should you decide to move elsewhere, it should be a smooth transition.
-            We will even help the other party get up to speed, free of charge.</p>
+            We make all our software self contained, meaning that should you decide to move elsewhere, it should be a
+            smooth transition.
+            We are confident in our ability to keep you happy, so should you want to move your software to another
+            developer, we will help the other party get up to speed,
+            <span class="highlight-text">free of charge.</span></p>
         </div>
         <div class="border-highlights border-b-2 border-t-2">
           <ul class="list-disc">
@@ -43,7 +47,8 @@
             <li>24/7 availability, every day of the year to make sure your systems stay online and healthy.</li>
             <li>Advice for realizing your ideas is always free of charge.</li>
             <li>All software is written to match industry standards, to minimize your dependence on us.</li>
-            <li>We will always try to use open source software where possible, saving you money and making us happy.</li>
+            <li>We will always try to use open source software where possible, saving you money and keeping us happy.
+            </li>
             <li>For critical bugs, there should be a fix deployed to production within 24 hours from the moment we
               become aware of it, or you will not be charged for the work.
             </li>
@@ -51,17 +56,44 @@
         </div>
       </div>
     </div>
-    <div class="mt-12 mb-12" style="height: 250px"></div>
+    <div w-full="" class="mt-12 mb-12">
+      <div class="border border-highlights"></div>
+    </div>
     <div class="w-full part-3">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid lg:grid-cols-2 lg:items-center">
+      <div
+          class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid lg:grid-cols-2 lg:items-center">
         <div class="">
           <PrototypeSVG class="w-4/5 fill-slate-100 mx-auto"></PrototypeSVG>
         </div>
         <div>
-          <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl"><span class="highlight-text">Prototype</span> before you commit</h2>
-          <p class="mt-6 text-lg ">There is no need to commit to large projects right away, a lot can change and what you had in your might change.</p>
-          <p class="mt-6 text-lg ">We can instead build a prototype first, a lean and minimum viable version of your idea. If you like what the prototype has to offer, we can commit to realize it to its full potential</p>
+          <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl"><span class="highlight-text">Prototype</span> before
+            you commit</h2>
+          <p class="mt-6 text-lg ">There is no need to commit to large projects right away, a lot can change and what
+            you had in your might change.</p>
+          <p class="mt-6 text-lg ">We can build a prototype first, a lean and minimum viable version of the
+            project. If you like what the prototype has to offer, we can commit to realize it to its full potential</p>
           <p class="mt-6 text-lg ">This also gives you some extra room to change the requirements during the project</p>
+        </div>
+      </div>
+    </div>
+    <div w-full="" class="mt-12 mb-12">
+      <div class="border border-highlights"></div>
+    </div>
+    <div class="w-full part-4">
+      <div
+          class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl gap-16 sm:gap-y-24 grid lg:grid-cols-2 lg:items-center">
+        <div>
+          <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Any <span
+              class="text-highlights">infrastructure </span> you like</h2>
+          <p class="mt-6 text-lg ">If you have any specific technical requirements for your projects, we will make sure
+            the project fits the bill</p>
+          <p class="mt-6 text-lg ">Whether you wish to have the solution hosted on-site and watched by you or on a specific
+            platform you are used to, it will be glad to deploy it anywhere you want it.</p>
+          <p class="mt-6 text-lg ">You can also let us completely handle all of your infrastructure needs in the
+            cloud, where you won't have to worry about scaling and server capacity.</p>
+        </div>
+        <div class="">
+          <CloudSVG class="w-3/5 h-full fill-slate-100 mx-auto"></CloudSVG>
         </div>
       </div>
     </div>
@@ -74,6 +106,7 @@ import VanillaTilt from 'vanilla-tilt'
 import {onMounted, ref} from 'vue'
 import PrototypeSVG from "~/components/PrototypeSVG.vue";
 import {ChevronDownIcon} from "@heroicons/vue/24/outline";
+import CloudSVG from "~/components/CloudSVG.vue";
 
 const element = ref(null)
 onMounted(() => {
@@ -111,7 +144,6 @@ onMounted(() => {
 
 .part-1 {
   //background: rgba(54, 185, 190, 0.51);
-  height: 500px;
 }
 
 .highlight-text {

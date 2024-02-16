@@ -10,6 +10,12 @@ export default defineNuxtConfig({
         exposeLevel: 2,
         injectPosition: 'first',
         viewer: true,
-    }
+    },
+    build: {
+
+    },
+    plugins: [
+
+    ],
 
 })
